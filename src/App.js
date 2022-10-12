@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import kyiv from "./images/kyiv.jpg"
 
-function App() {
+
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Oleksandra Popova</h1>
+      <h3>063 610 54 17</h3>
+      <h3>aleksandraip@ukr.net</h3>
+
+        <div className="Country">
+            <h1>Ukraine, Kyiv</h1>
+            <img src={kyiv} alt="img"/>
+        </div>
     </div>
   );
 }
 
-export default App;
